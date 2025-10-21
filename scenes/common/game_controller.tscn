@@ -6,11 +6,11 @@
 process_mode = 1
 script = ExtResource("1_i5fmf")
 world_2d = NodePath("World2D")
-hud = NodePath("HUD")
+hud = NodePath("Hud")
 
 [node name="World2D" type="Node2D" parent="."]
 
-[node name="HUD" type="Control" parent="."]
+[node name="Hud" type="Control" parent="."]
 layout_mode = 3
 anchors_preset = 0
 offset_right = 40.0

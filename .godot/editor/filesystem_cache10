@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1761057304
+::res://::1761058924
 default_bus_layout.tres::AudioBusLayout/AudioBusLayout::157952116192871093::1761044797::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D/CompressedTexture2D::4702010018503289607::1760993123::1761044186::1::::<><><>0<>0<>64baf26b4a649b4e54d799f5e316a0ad<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 README.md::TextFile/TextFile::-1::1760993682::0::1::::<><><>0<>0<><>::
@@ -10,7 +10,7 @@ plugin.cfg::TextFile/TextFile::-1::1760993682::0::1::::<><><>0<>0<><>::
 THIRDPARTY.md::TextFile/TextFile::-1::1760993682::0::1::::<><><>0<>0<><>::
 ::res://addons/godot-git-plugin/linux/::1760993682
 ::res://addons/godot-git-plugin/macos/::1760993682
-::res://addons/godot-git-plugin/win64/::1761057301
+::res://addons/godot-git-plugin/win64/::1761058921
 ::res://assets/::1761053534
 ::res://assets/sprites/::1761053509
 ::res://assets/tiles/::1761053516
