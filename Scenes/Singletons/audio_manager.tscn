@@ -1,6 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://dht1be3bhbu4h"]
-
-[ext_resource type="Script" uid="uid://b8v0eemjxqix2" path="res://Scripts/Singletons/audio_manager.gd" id="1_tf8dp"]
-
-[node name="AudioManager" type="AudioStreamPlayer"]
-script = ExtResource("1_tf8dp")

@@ -1,6 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://vys4wiojv0x"]
-
-[ext_resource type="Script" uid="uid://fljx7npv53s2" path="res://Scripts/Singletons/scene_transition.gd" id="1_k7xw8"]
-
-[node name="SceneTransition" type="Node"]
-script = ExtResource("1_k7xw8")

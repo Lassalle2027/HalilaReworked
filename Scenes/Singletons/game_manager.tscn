@@ -1,6 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://bbnu82ld0ywcn"]
-
-[ext_resource type="Script" uid="uid://b8pskhmts0d3a" path="res://Scripts/Singletons/game_manager.gd" id="1_4pygl"]
-
-[node name="GameManager" type="Node"]
-script = ExtResource("1_4pygl")
