@@ -6,11 +6,10 @@ var last_music_volume_db := 0.0
 func change_music(music_path: String, fade_out_time: float = 2.0, fade_in_time: float = 1.0, target_volume_db: float = 0.0):
 	if stream !=null and stream.resource_path == music_path and playing:
 		return
-	
+
 	var tween := get_tree().create_tween()
 	tween.tween_property($".", "volume_db", -80, fade_out_time)
 	tween.tween_callback(Callable(self, "_on_fade_out_done").bind(music_path, fade_out_time,fade_in_time, target_volume_db))
-
 
 func _on_fade_out_done(music_path: String, fade_in_time: float, target_volume_db: float):
 	$".".stream = load(music_path)
@@ -19,7 +18,6 @@ func _on_fade_out_done(music_path: String, fade_in_time: float, target_volume_db
 
 	var tween := get_tree().create_tween()
 	tween.tween_property($".", "volume_db", target_volume_db, fade_in_time)
-
 
 func play_FX(fx : AudioStream, volume = 0.0, pitch = 1.0):
 	var fx_player = AudioStreamPlayer.new()
