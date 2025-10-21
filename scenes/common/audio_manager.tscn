@@ -4,5 +4,4 @@
 
 [node name="AudioManager" type="AudioStreamPlayer"]
 process_mode = 3
-bus = &"Music"
 script = ExtResource("1_axt42")

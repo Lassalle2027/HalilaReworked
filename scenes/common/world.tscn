@@ -1,7 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://cirbeypx4je7x"]
-
-[ext_resource type="Script" uid="uid://cor0ge8kmqrrj" path="res://scripts/common/world.gd" id="1_gktej"]
-
-[node name="World" type="Node"]
-process_mode = 1
-script = ExtResource("1_gktej")

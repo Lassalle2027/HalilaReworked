@@ -1,4 +1,4 @@
-extends AudioStreamPlayer
+class_name AudioManager extends AudioStreamPlayer
 
 var music_muted := false
 var last_music_volume_db := 0.0
