@@ -7,7 +7,7 @@ var _current_2d_scene : Node2D
 var _current_hud_scene : Control
 
 func _ready() -> void:
-	Global.game_controller = self
+	Global.game_manager = self
 
 func change_2d_scene(new_scene_path: String, delete: bool = true, keep_running: bool = false) -> void:
 	if _current_2d_scene == null:

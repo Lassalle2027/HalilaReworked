@@ -1,4 +1,4 @@
 extends Node
 
-var game_controller : GameManager
+var game_manager : GameManager
 var audio_manager : AudioManager
