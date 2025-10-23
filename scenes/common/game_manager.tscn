@@ -1,10 +1,10 @@
 [gd_scene load_steps=2 format=3 uid="uid://cirbeypx4je7x"]
 
-[ext_resource type="Script" uid="uid://cor0ge8kmqrrj" path="res://scripts/common/game_manager.gd" id="1_i5fmf"]
+[ext_resource type="Script" uid="uid://cor0ge8kmqrrj" path="res://scripts/common/game_manager.gd" id="1_85bex"]
 
 [node name="GameManager" type="Node" node_paths=PackedStringArray("world_2d", "hud")]
 process_mode = 1
-script = ExtResource("1_i5fmf")
+script = ExtResource("1_85bex")
 world_2d = NodePath("World2D")
 hud = NodePath("Hud")
 
