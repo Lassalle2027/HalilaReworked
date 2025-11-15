@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://bapvmco0u8h8i"]
+
+[ext_resource type="Script" path="res://weapon.gd" id="1_swcir"]
+[ext_resource type="Texture2D" path="res://pistol.png" id="2_o2wld"]
+
+[node name="weapon" type="Node2D"]
+script = ExtResource("1_swcir")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(18.000004, 16)
+scale = Vector2(5.2500005, 4.875)
+texture = ExtResource("2_o2wld")
+
+[node name="reload_timer" type="Timer" parent="."]
+one_shot = true
+
+[node name="fire_rate" type="Timer" parent="."]
+wait_time = 0.05
+one_shot = true
+
+[connection signal="timeout" from="reload_timer" to="." method="_on_reload_timer_timeout"]
+[connection signal="timeout" from="fire_rate" to="." method="_on_fire_rate_timeout"]
