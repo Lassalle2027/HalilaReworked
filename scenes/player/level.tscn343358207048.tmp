@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=3 uid="uid://mjfi83gtiswe"]
+
+[ext_resource type="PackedScene" uid="uid://c8f8va10wucfv" path="res://scenes/player/player.tscn" id="1_u52ul"]
+[ext_resource type="PackedScene" uid="uid://c2b67w0x5pp0x" path="res://scenes/player/mechant_degat.tscn" id="2_a0cu7"]
+
+[node name="Level" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource("1_u52ul")]
+position = Vector2(0, -4)
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+position = Vector2(0, 4)
+
+[node name="MechantDegat" parent="." instance=ExtResource("2_a0cu7")]
+position = Vector2(432, -126)

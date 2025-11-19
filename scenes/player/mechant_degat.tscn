@@ -1,0 +1,17 @@
+[gd_scene load_steps=3 format=3 uid="uid://c2b67w0x5pp0x"]
+
+[ext_resource type="Texture2D" uid="uid://sxtrkrirnv6t" path="res://GrosMechantResized.png" id="1_ckd2g"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_iaoby"]
+size = Vector2(159.5, 159)
+
+[node name="mechant degat" type="Area2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_ckd2g")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(0.25, -0.5)
+shape = SubResource("RectangleShape2D_iaoby")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
